@@ -18,20 +18,17 @@ for(let i = 0; i <= 100; i++) {
     /* Per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi “Buzz”.
 Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”. */
 
-    if (i % 3 == 0){
+    if (i % 3 == 0) {
         console.log("Fizz");
-        list.innerHTML += `<li>Fizz</li>`;
+        i += ("Fizz");
 
     } if ( i % 5 == 0) {
         console.log("Buzz");
-        list.innerHTML += `<li>Buzz</li>`;
 
     } if (i % 3 == 0 && i % 5 == 0) {
         console.log("FizzBuzz");
-        list.innerHTML += `<li>FizzBuzz</li>`;
     }
 
-    list.innerHTML += `<li>${i}</li>`;
 }
 
 
