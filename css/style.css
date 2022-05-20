@@ -1,0 +1,17 @@
+:root {
+    --bs-body-bg: rgb(12, 59, 75);
+}
+
+.list-container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.custom-square {
+    width: calc((100% / 7) - 2rem);
+    aspect-ratio: 1/1;
+    background-color: rgba(255, 0, 0, 0.413);
+    margin: 1rem;
+    justify-content: center;
+    align-content: center;
+}
